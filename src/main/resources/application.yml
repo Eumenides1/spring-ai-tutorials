@@ -5,6 +5,9 @@ spring:
     openai:
       base-url: ${OPENAI_API_BASE}
       api-key: ${MY_API_KEY}
+      chat:
+        options:
+          model: gpt-4o
     qianfan:
       api-key: ${QIAN_FAN_API_KEY}
       secret-key: ${QIAN_FAN_SECRET}
