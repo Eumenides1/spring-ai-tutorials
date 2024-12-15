@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-ai-tutorials
+  ai:
+    openai:
+      base-url: ${OPENAI_API_BASE}
+      api-key: ${MY_API_KEY}
+    qianfan:
+      api-key: ${QIAN_FAN_API_KEY}
+      secret-key: ${QIAN_FAN_SECRET}
+    zhipuai:
+      api-key: ${ZHI_PU_API_KEY}
+
